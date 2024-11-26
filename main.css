@@ -48,12 +48,12 @@ section .container {
 }
 
 .brands-list img {
-    height: 100px;
+    max-width: 50px;
 }
 
 .brands-list li {
-    display: inline;
-    margin-right: 8px;
+    display: flex;
+    align-items: center;
 }
 
 section .container {
